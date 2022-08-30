@@ -295,6 +295,7 @@ a:active {
 }
 
 /*  sessão Contato  */
+
 .contact .title::after{
     content: "";
 }
