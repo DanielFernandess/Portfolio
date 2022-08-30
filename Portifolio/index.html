@@ -34,7 +34,7 @@
                 <div class="text-1">Ola, meu nome é</div>
                 <div class="text-2">Daniel Fernandes</div>
                 <div class="text-3">eu sou <span class="typing"></span></div>
-                <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K2012764P6&tokenCaptchar=03ANYolquhnGiRog_zVuGk3bZAL-gh-JjqH6t39l0BXqMxYOypohOIfUg-8jX8YkdHnSaon2Uk7VAoQZbsRAE7AFNeN58sDnjtk6R9SS7voBcRpXYRx_RWBvCwv4D8KNPcg_5oPBFkO1rJV69cfxtdqyuXrin2YN3xBFdx3tn3uyBIYu3uFD6UJ27yM1jeevVaQChA6j1U0YqbqhBdfidqfE9ktFhdnnJ2xfW1pqzygvZswxnwzdL1E7Mfw9Rmp2_G8YJ1jL2nxDeIlX7EazWZ-gA8pTqgQeX2HCyCYgf-xUK9jIDpnFwledDA0FIJ7TGu8IHYIZ6xSPZB3A1HskUm0VOp_wrUyfpOt5mGprVxyZo-ZZUl4g7wByRHAgEM0QLtCtPJs55T4Hkratq6g7o7rRB3wk3IBKJUvdxmeUGiKRWKhtqeHoKOw-V9qtuDc7qjDE9zu9tdJAfS-_7R4WLXF4NHKM3otJV3YBlkCKl-SiakdIy2-tWen0IARgRPOQtV9yQeF60Gdd3SsepK8uplOdxKFxtVtavXkg" target="=_blank" >Currículo Lattes</a>
+                <a href="#contact">Entrar Em Contato</a>
                 
             </div>
         </div>
@@ -55,15 +55,13 @@
                             <p>"Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema. Thales Valentim"</p>
                         <br>
                     </p>
-                    <a href="#">Download CV</a>
+                    <a href="http://lattes.cnpq.br/7502846802048671" target="=_blank" >Currículo Lattes</a>
                 </div>
             </div>
         </div>
     </section>
 
      <!--sessão projetos-->
-     
-     
      <section class="services" id="services">
         <div class="max-width">
             <h2 class="title">Projetos</h2>
@@ -75,6 +73,7 @@
                </div>
                <!--Caixa central-->
                <div class="card">
+                <!--Perfil do github-->
                 <a href="https://github.com/DanielFernandess" target="=_blank">
                     <div class="box">
                         <ion-icon name="code-outline"></ion-icon>
@@ -98,8 +97,7 @@
             <h2 class="title">Contato</h2>
             <div class="contact-content">
                <div class="column left">
-                   <div class="text">Entre Em Contato</div>
-                   <p>ADICIONAR REDES SOCIAIS AQUI!!!!!!!!!!!!!!</p>
+                   <div class="text">Entrar Em Contato</div>
                
                <div class="icons">
                    <div class="row">
@@ -113,7 +111,7 @@
                     <ion-icon name="earth-outline"></ion-icon>
                     <div class="info">
                         <div class="head">Endereço</div>
-                        <div class="sub-title">Rio Grande Do Norte - RN</div>
+                        <div class="sub-title">Rio Grande Do Norte, RN</div>
                     </div>
                </div>
                <div class="row">
@@ -122,6 +120,39 @@
                     <div class="head">Email</div>
                     <div class="sub-title">carloscdanield@gmail.com</div>
                 </div>
+           </div>
+               </div>
+            </div><!--column left-->
+            <div class="column rigth">
+                <div class="text">Mensagem</div>
+                <!--Chave de acesso para receber email via Stactforms-->
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <!--Para enviar o email-->
+                    <input type="hidden" name="accessKey" value="5fb75118-da6d-4cca-bd11-4748906fc54b"> 
+                    <!--Para receber o email-->
+                    <!--Preciso atualizar quando muda o dominio do site!!!-->
+                    <!--Nessa versão esta usando "Vercel"-->
+                    <input type="hidden" name="redirectTo" value="https://teste-lovat-zeta.vercel.app/#contact">
+
+                    <div class="fields">
+                        <div class="field name">
+                            <input type="text" name="name" placeholder="Nome" required>
+                        </div>
+                        <div class="field email">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="field textarea">
+                           <textarea name="message" cols="30" rows="10" placeholder="Escrever...." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
         </div>
     </section>
 
