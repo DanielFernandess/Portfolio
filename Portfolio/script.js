@@ -16,13 +16,13 @@ $(document).ready(function(){
      });
 
      var typed = new Typed(".typing", {
-         strings:["DEV", "💻", "Desenvolvedor"],
+         strings:["DEV", "Developer"],
          typeSpeed:100,
          backSpeed:60,
          loop:true
      });
      var typed = new Typed(".typing-2", {
-        strings:["Desenvolvedor", "💻", "DEV"],
+        strings:["Developer", "DEV"],
         typeSpeed:100,
         backSpeed:60,
         loop:true
