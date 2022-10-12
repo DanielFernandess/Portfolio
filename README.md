@@ -2,7 +2,6 @@
 
 🔗 Link: [Portfólio](https://daniel-fernandes.vercel.app/ "Site Portfólio").
 
-
 # Sobre
 
  Meus materiais e trabalhos desenvolvidos. 
@@ -14,8 +13,6 @@
 - HTML
 - CSS
 - JavaScript
-- TypeScript
-- Java
 
 # Autor
 
